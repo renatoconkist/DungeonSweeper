@@ -1939,23 +1939,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1012.5
-      height: 571.5
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 506.25, y: 285.75}
+      width: 797
+      height: 504
+    m_Scale: {x: 0.83020836, y: 0.83020836}
+    m_Translation: {x: 398.49997, y: 252.00002}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -506.25
-      y: -285.75
-      width: 1012.5
-      height: 571.5
+      x: -479.99994
+      y: -303.53827
+      width: 959.99994
+      height: 607.07654
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1012.5, y: 592.5}
+  m_defaultScale: 0.83020836
+  m_LastWindowPixelSize: {x: 797, y: 525}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
