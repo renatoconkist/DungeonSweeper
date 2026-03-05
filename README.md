@@ -1,4 +1,3 @@
-[placeholder: screenshot-title] (Assets/Media/Wallpaper.png)
 DungeonSweeper — Guia do Desenvolvedor
 
 Este repositório contém um template de jogo inspirado em Vampire Survivor, focado em mecânicas de sobrevivência, *waves* de inimigos e upgrades rápidos. O projeto usa prefabs e Unity Visual Scripting (Graph Machines) como núcleo das mecânicas; este README foi escrito para ajudar desenvolvedores a entender, estender e criar novas mecânicas além das mostradas no template.
@@ -10,8 +9,6 @@ Este repositório contém um template de jogo inspirado em Vampire Survivor, foc
 **Como usar este README**: siga as seções abaixo para localizar sistemas principais, entender os ScriptGraphs existentes, ver pontos de extensão e ver exemplos de integração em C# quando quiser misturar código com Visual Scripting.
 
 **Nota**: Este README foca em desenvolvimento — se precisar de um README para jogadores, me peça uma versão mais curta.
-
-[placeholder: screenshot-gameplay] (Assets/Media/Gameplay.png)
 
 ## Project structure
 
@@ -121,3 +118,23 @@ Insira este componente em `Projectile.prefab` e, no Graph do projétil ou do ini
 **Scripts utilitários incluídos**
 
 - O plugin `PlayerPrefsEditor` está disponível em [Assets/PlayerPrefsEditor](Assets/PlayerPrefsEditor). Ele traz ferramentas de editor e um exemplo (`PlayerPrefsController.cs`) para manipular preferências de jogador na cena de amostra.
+
+[**Placeholders para imagens**]
+
+[placeholder: Gameplay screenshot] (Assets/Media/Gameplay.png)
+
+[placeholder: Wallpaper / artwork] (Assets/Media/Wallpaper.png)
+
+Substitua os arquivos acima em `Assets/Media/` (crie a pasta) e atualize os nomes se necessário.
+
+**Próximos passos sugeridos**
+
+- Experimente criar um novo ataque seguindo o fluxo: duplicar prefab de `Projectile` → ajustar Graph → expor variáveis → adicionar ao `SkillSpawner`.
+- Se preferir escrever lógica em C#, crie um pequeno `ObjectPool` para projéteis e exponha métodos públicos para o `SkillSpawner` chamar via `Call Method`.
+- Posso gerar exemplos prontos: C# `ObjectPool`, um `ScriptableObject` para upgrades, ou Graph templates para IA — diga qual prefere.
+
+Se quiser, gero automaticamente um exemplo de `ObjectPool` ou um `ScriptableObject` para gerenciar upgrades.
+
+---
+
+Se desejar, adapto este README para incluir screenshots reais, fluxos de uso passo a passo mais detalhados, ou adiciono exemplos práticos (C# + Graph) diretamente no projeto.
