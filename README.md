@@ -1,3 +1,4 @@
+[placeholder: title-screen] (Assets/Media/Wallpaper.png)
 DungeonSweeper — Guia do Desenvolvedor
 
 Este repositório contém um template de jogo inspirado em Vampire Survivor, focado em mecânicas de sobrevivência, *waves* de inimigos e upgrades rápidos. O projeto usa prefabs e Unity Visual Scripting (Graph Machines) como núcleo das mecânicas; este README foi escrito para ajudar desenvolvedores a entender, estender e criar novas mecânicas além das mostradas no template.
@@ -9,6 +10,8 @@ Este repositório contém um template de jogo inspirado em Vampire Survivor, foc
 **Como usar este README**: siga as seções abaixo para localizar sistemas principais, entender os ScriptGraphs existentes, ver pontos de extensão e ver exemplos de integração em C# quando quiser misturar código com Visual Scripting.
 
 **Nota**: Este README foca em desenvolvimento — se precisar de um README para jogadores, me peça uma versão mais curta.
+
+[placeholder: gameplay-screen] (Assets/Media/Gameplay.png)
 
 ## Project structure
 
